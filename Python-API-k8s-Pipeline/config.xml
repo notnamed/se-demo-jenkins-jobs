@@ -4,9 +4,6 @@
 <properties>
 <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
 <triggers>
-<hudson.triggers.TimerTrigger>
-<spec>* * * * *</spec>
-</hudson.triggers.TimerTrigger>
 </triggers>
 </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
 </properties>
@@ -15,9 +12,7 @@
 <configVersion>2</configVersion>
 <userRemoteConfigs>
 <hudson.plugins.git.UserRemoteConfig>
-<url>
-https://github.com/notnamed/hello-world-instrumented
-</url>
+<url>https://github.com/notnamed/hello-world-instrumented</url>
 </hudson.plugins.git.UserRemoteConfig>
 </userRemoteConfigs>
 <branches>
